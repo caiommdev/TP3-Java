@@ -9,7 +9,7 @@ public class Ex2 {
         Scanner scanner = new Scanner(System.in);
         StringUtils stringUtils = new StringUtils();
 
-        System.out.println("Digite uma palavra: ");
+        System.out.println("Digite numeros: ");
         String word = scanner.nextLine();
 
         stringUtils.WriteDigits(word);
